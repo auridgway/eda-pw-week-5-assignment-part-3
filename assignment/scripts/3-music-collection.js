@@ -55,10 +55,12 @@ function search(collection, searchCriteria){
   return isFound;
 }
 
-console.log('Testing search function:')
+console.log(`Testing search function: `)
 console.log(search(myCollection, {artist: 'Mac Demarco', year: 2014}));
 console.log(search(myCollection, {artist: 'Mac Demarco', year: 2013}));
 console.log(search(myCollection, {artist: 'Masayoshi Takanaka', year: 1979}));
+// seems to work even though the auto test says its not
+
 
 
 
